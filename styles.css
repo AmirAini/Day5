@@ -1,0 +1,346 @@
+* {
+    margin: 0; padding: 0;
+}
+
+html, body {
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+} 
+
+/* Variables */
+:root {
+    --title-size: 35px;
+    --body-size:15px;
+}
+
+
+/* Main Containers */
+#container1 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #5F5FFD;
+}
+
+#container2 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#container3 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+
+#body {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#body1 {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+
+
+/* Section 1 */
+    /* head */
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+header ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+}
+
+    /* body */
+.section1-body {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+    /* left */
+.left1 {
+    width: 50%;
+    height: 300px;
+    margin: 40px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+        /* text */
+.title-text {
+    font-size: var(--title-size);
+}
+
+.body-text {
+    font-size: var(--body-size);
+}
+
+
+        /* Button */
+
+.button {
+    width: 165px;
+    height: 40px;
+    font-size: var(--body-size);
+    /* margin: 0 0px; */
+
+}
+
+
+
+.right1 {
+    width: 50%;
+    height: 100%;
+    margin: 0 5px;
+}
+
+.picture {
+    width: 400px;
+    height: 400px;
+    background-image: url(day5_challange/images/slide_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Section 2 */
+
+    /* left */
+
+    .left2 {
+        width: 50%;
+        height: 400px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: black;
+        padding: 20px 10px;
+    
+    }
+
+    .right2 {
+        width: 50%;
+        height: 500px;
+        margin: 0 5px;
+    }
+
+    .picture2 {
+        width: 340px;
+        height: 340px;
+        background-image: url(day5_challange/images/slide_2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 90px;
+        margin-left: 20px;
+    }
+
+    /* Section 3 */
+.header {
+    float: right;
+    width: 550px;
+    height: 170px;
+    background-color: white;
+    padding: 65px 50px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 350px;
+}
+
+
+/* left */
+.left3 {
+    width: 50%;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 110px;
+}
+
+.picture3 {
+    width: 350px;
+    height: 350px;
+    background-image: url(day5_challange/images/slide_3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.right3 {
+    width: 60%;
+    height: 500px;
+    margin: 180px 5px;
+    padding: 0 30px 0 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+/* Section 4 */
+
+.body4 {
+    width: 800px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 250px 50px 0px 50px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.body4-pics {
+    width: 770px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.icon1 {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    margin: 10px 5px;
+    background-image: url(day5_challange/images/1.PNG);
+    background-size: cover;
+    box-shadow: 2px 2px gray;
+}
+
+.icon2 {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    margin: 10px 5px;
+    background-image: url(day5_challange/images/2.PNG);
+    background-size: cover;
+    box-shadow: 2px 2px gray;
+}
+
+.icon3 {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    margin: 10px 5px;
+    background-image: url(day5_challange/images/3.PNG);
+    background-size: cover;
+    box-shadow: 2px 2px gray;
+}
+
+.icon4 {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    margin: 10px 5px;
+    background-image: url(day5_challange/images/4.PNG);
+    background-size: cover;
+    box-shadow: 2px 2px gray;
+}
+
+.icon5 {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    margin: 10px 5px;
+    background-image: url(day5_challange/images/5.PNG);
+    background-size: cover;
+    box-shadow: 2px 2px gray;
+}
+
+.icon6 {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    margin: 10px 5px;
+    background-image: url(day5_challange/images/6.PNG);
+    background-size: cover;
+    box-shadow: 2px 2px gray;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border: 1px solid black;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.f1 {
+    width: 260px;
+    height: 200px;
+    /* border: 1px solid skyblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+
+}
+
+.email {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 370px;
+    left: 300px;
+    cursor: pointer;
+
+}
+
+.email1 {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 370px;
+    left: 470px;
+    cursor: pointer;
+}
+
+.email2 {
+    width: 60%;
+    padding: 10px 10px;
+    height: 100px;
+    position: absolute;
+    top: 400px;
+    left: 290px;
+}
